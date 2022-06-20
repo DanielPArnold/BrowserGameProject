@@ -1,0 +1,14 @@
+.window {
+    border: 5px solid green;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 1350px;
+    height: 1100px;
+    transform: translate(-50%, -50%);
+    background-image: url('/assets/background.png');
+}
+
+body {
+    overflow: hidden
+  }
