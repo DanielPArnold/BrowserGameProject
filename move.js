@@ -13,6 +13,8 @@ function move(element) {
         element.style.left = x + 'px'
         element.style.bottom = y + 'px'
         
+        //Much of this code was taken from the class's browser game assignment series, but I
+        //changed it to fit a grid-based movement that would allow for a brief animation to play when the character moved.
         document.addEventListener('keydown', function(e){
             if(moving){
                 return;
